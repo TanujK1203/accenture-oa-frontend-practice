@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Score Board</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="app">
+        <div class="board">
+            <div class="team" id="teamA">
+                <h2>Team A</h2>
+                <p class="score" id="scoreA">0</p>
+                <button class="add-btn" data-team="A" data-points="1">+1</button>
+                <button class="add-btn" data-team="A" data-points="2">+2</button>
+                <!-- TODO: Add the +3 button for Team A -->
+            </div>
+
+            <div class="team" id="teamB">
+                <h2>Team B</h2>
+                <p class="score" id="scoreB">0</p>
+                <button class="add-btn" data-team="B" data-points="1">+1</button>
+                <button class="add-btn" data-team="B" data-points="2">+2</button>
+                <button class="add-btn" data-team="B" data-points="3">+3</button>
+            </div>
+        </div>
+
+        <button id="resetBtn" class="reset-btn">Reset</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

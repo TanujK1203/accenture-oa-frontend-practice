@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    background-color: #eef1f5;
+}
+
+.profile-card {
+    width: 260px;
+    padding: 24px;
+    text-align: center;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.avatar {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    /* TODO: make the avatar a perfect circle */
+}
+
+.role {
+    color: #666666;
+    margin-top: 0;
+}
+
+#followBtn {
+    background-color: #0073e6;
+    color: #ffffff;
+    border: none;
+    padding: 10px 24px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.following {
+    background-color: #28a745;
+}

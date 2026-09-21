@@ -1,0 +1,34 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f8;
+    display: flex;
+    justify-content: center;
+    padding-top: 60px;
+}
+
+.container {
+    background-color: #ffffff;
+    padding: 24px 32px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.p {
+    border: 2px solid #333333;
+    padding: 12px;
+}
+
+.btn {
+    width: 80px;
+    padding: 8px;
+    cursor: pointer;
+}
+
+.p.change {
+    border-style: dashed;
+}
+
+.btn.change {
+    width: 120px;
+}
