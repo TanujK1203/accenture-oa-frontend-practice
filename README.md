@@ -2,7 +2,7 @@
 
 Practice for the web task in the Accenture coding round. You get a partially built HTML/CSS/JS page and have to add, change or fix exact things (ids, classes, styles, a timer value), the way the real Mettl-style simulator works.
 
-**Open it:** https://daddy-coder463.github.io/accenture-oa-frontend-practice/
+**Open it:** https://tanujk1203.github.io/accenture-oa-frontend-practice/
 
 ## How to practice
 
